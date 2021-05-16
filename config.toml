@@ -1,0 +1,81 @@
+baseURL = "https://kubeops.cn"
+languageCode = "zh-Hans"
+defaultContentLanguage = "zh"
+title = "KubeOps in China"
+theme = "dream"
+
+# googleAnalytics = ""
+enableRobotsTXT = true
+hasCJKLanguage = true
+
+[params]
+  background = "#fff"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "#222"
+  # backgroundImageDark = "/me/background.jpg"
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404 = true
+
+  # images = ["me/background.jpg"]
+
+  author = "K8sCat"
+  description = "Kubernetes 运维"
+  avatar = "https://k8scat.com/images/k8scat.jpg"
+  headerTitle = "Kubernetes 运维"
+  # motto = "Kubernetes 运维"
+  # maxTags = 5
+  # categoriesLimitInHeader = 6 # deprecated
+  # headerBottomText = "" # deprecated
+
+  footerBottomText = "Powered by <a href=\"https://k8scat.com\" target=\"_blank\">K8sCat</a>"
+
+  rss = true
+
+  utterancesRepo = "k8scat/kubeops.cn"
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  email = "k8scat@gmail.com"
+  # twitter = ""
+  # facebook = ""
+  # instagram = ""
+  # mastodon = ""
+  # linkedin = ""
+  github = "k8scat"
+  # stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2021
+
+  # favicon = "/favicon.ico"
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["clojure", "ocaml"]
+  highlightjsTheme = "tomorrow"
+  highlightjsThemeDark = "tomorrow-night"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+  # reversePostAndAside = true
+  # shareInAside = true
+
+  [params.advanced]
+    customCSS = ["css/custom.css"]
+    customJS = []
+
+  [params.experimental]
+    jsDate = true
+    jsDateFormat = "yyyy年MM月dd日"
+    # jsDateFormat = "yyyy年MM月dd日，cccc"
