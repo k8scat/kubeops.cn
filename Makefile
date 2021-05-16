@@ -16,7 +16,10 @@ install-hugo-darwin:
 new-post:
 	$(HUGO) new posts/$(POST_NAME).md
 
-update-theme: get_theme
+build: update-submodule
+	$(HUGO) --buildDrafts --gc --verbose --minify
+
+update-submodule: download-submodule
 	$(GIT) submodule update --remote --merge
 
 download-theme:
