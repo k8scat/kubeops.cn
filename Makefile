@@ -22,5 +22,5 @@ build: update-submodule
 update-submodule: download-submodule
 	$(GIT) submodule update --remote --merge
 
-download-theme:
+download-submodule:
 	$(GIT) submodule update --init --recursive
