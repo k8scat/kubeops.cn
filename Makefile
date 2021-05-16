@@ -1,3 +1,8 @@
+HUGO = hugo
+GIT = git
+
+POST_NAME =
+
 server:
 	hugo server -D
 
@@ -7,3 +12,12 @@ install-hugo-darwin:
 	cp hugo_0.83.1_macOS-64bit/hugo /usr/local/bin && \
 	chmod a+x /usr/local/bin/hugo && \
 	rm -rf hugo_0.83.1_macOS-64bit.tar.gz hugo_0.83.1_macOS-64bit
+
+new-post:
+	$(HUGO) new posts/$(POST_NAME).md
+
+update-theme: get_theme
+	$(GIT) submodule update --remote --merge
+
+download-theme:
+	$(GIT) submodule update --init --recursive

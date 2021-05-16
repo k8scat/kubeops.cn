@@ -25,7 +25,7 @@ hasCJKLanguage = true
 
   author = "K8sCat"
   description = "Kubernetes 运维"
-  avatar = "https://k8scat.com/images/k8scat.jpg"
+  avatar = "https://kubernetes.io/images/favicon.png"
   headerTitle = "Kubernetes 运维"
   # motto = "Kubernetes 运维"
   # maxTags = 5
@@ -54,7 +54,7 @@ hasCJKLanguage = true
 
   siteStartYear = 2021
 
-  # favicon = "/favicon.ico"
+  favicon = "https://kubernetes.io/images/favicon.png"
 
   highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
